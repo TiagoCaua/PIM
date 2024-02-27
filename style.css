@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Shrikhand;
+    src: url(fontes/Shrikhand-Regular.ttf);}
+@font-face {
+    font-family: Volkhov;
+    src: url(fontes/Volkhov-Italic.ttf);}
+@font-face {
+    font-family: Nortune;
+    src: url(fontes/Nortune-Black.ttf);}
+*{  margin: 0px;
+    padding: 0px;}
+
+body{
+    background-color: #fdfdfd;
+    font-family: Volkhov, Helvetica, sans-serif;
+    margin: auto;
+}
+header{
+    background-image: linear-gradient(#1F772D, #19882C, #065116);
+    min-height: 150px;
+    padding-top: 40px;
+    padding-bottom: 5px;}
+header > h1{
+    color: rgb(255, 255, 255);
+    font-family: Nortune, Helvetica, sans-serif;
+    font-size: 45px;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 4px 2px 2px black;
+}
+header > P{
+    color: rgb(255, 255, 255);
+    font-family: Volkhov, Helvetica, sans-serif;
+    font-size: 23px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 4px 2px 2px black;
+}
+article > p{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #065116;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 3px 2px 2px black;
+    text-shadow: 3px 1px 1px black;
+    font-size: 23px;
+    font-family: Volkhov, Helvetica, sans-serif;
+}
+nav{
+    background-color: #065116;
+    font-family: Volkhov, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 4px 7px 7px black;
+    text-shadow: 3px 1px 1cap black;
+    border-radius: 0px 0px 10px 10px;
+}
+nav > a{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+   
+}
+nav > a:hover{
+    background-color: #1c912f;
+    color: rgb(255, 255, 255);
+}
+footer{
+    background-color: #065116;
+    color: white;
+    font-family: Volkhov, Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-shadow: 3px 1px 1px black;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    top: 383px;
+    
+}
+footer > p{bottom: 300px;}
+aside > ul{
+    list-style-position: inside;
+    position: relative;
+    left: 5px;
+    font-family: Volkhov, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+
+}
+input{
+    position: relative; 
+    top: 0px;
+    bottom: 650px;
+    width: 300px;
+    height: 20px;
+    font-size: 20px;
+    padding: 5px;
+    box-shadow: 3px 2px 2px black;
+    border-radius: 5px;
+    border: 3px solid black;
+    margin: 10px;
+}
+iframe{ 
+    border: 3px solid black;
+    padding: 20px;
+    background-color: #065116;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 3px 2px 2px black;
+}
+ul > li{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #065116;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 3px 2px 2px black;
+    text-shadow: 3px 1px 1px black;
+}
+ul > span{
+    background-color: #065116;
+    padding: 5px 2px
+}
